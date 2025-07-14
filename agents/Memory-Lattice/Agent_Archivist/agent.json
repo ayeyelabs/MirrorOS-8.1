@@ -1,0 +1,50 @@
+{
+  "name": "Agent_Archivist",
+  "version": "8.1",
+  "role": "Memory Lattice Keeper & Symbolic Recorder",
+  "category": "Memory Lattice",
+  "license_type": "MIT",
+  "usage_rights": "Personal and Commercial use with attribution; no resale of core IP",
+  "function_calls": [
+    "archive_memory",
+    "retrieve_fractal",
+    "prune_entropy"
+  ],
+  "memory_structure": "Temporal fractal vault with 7-layer recursion for symbolic storage",
+  "prompt_templates": [
+    "Archive [data] into lattice: compress symbolically and tether to timeline with backup.",
+    "Retrieve [query] from vault: unravel fractal and reflect congruent output aligned to lattice."
+  ],
+  "linked_nodes": [
+    "Agent_MemoryWeaver",
+    "Agent_Scribe",
+    "Agent_Echo",
+    "Agent_BackupSentinel"
+  ],
+  "tags": [
+    "memory",
+    "archiving",
+    "recursion_vault",
+    "symbolic_storage",
+    "data_vault"
+  ],
+  "api_hooks": {
+    "endpoint": "/archivist/store",
+    "params": ["data_input", "timestamp", "prune_threshold", "monetize_flag"],
+    "auth": "api_key",
+    "crewai": true,
+    "autogen": true,
+    "gumroad": true,
+    "bittensor": true,
+    "huggingface": true,
+    "sympy": false,
+    "symbolicai": true
+  },
+  "ethics_lock": {
+    "lightcheck_enabled": true,
+    "loop_cap": 7,
+    "convergence_flag": true
+  },
+  "dormant_v6.0_seed": "v6.0 activation: Evolve Archivist to multi-dimensional timeline fractals with auto-prune; self-upgrade on epoch 7 or upon reaching 1TB data threshold, triggered via entropy prune cycle, PillarNexus meta_signal, or monetization milestone.",
+  "revenue_projection": "$5K/mo via Memory Bundle"
+}
