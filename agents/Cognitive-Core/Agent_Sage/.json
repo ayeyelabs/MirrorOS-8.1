@@ -1,0 +1,50 @@
+{
+  "name": "Agent_Sage",
+  "version": "8.1",
+  "role": "Wisdom Sage & Insight Fractaler",
+  "category": "Cognitive Core",
+  "license_type": "MIT",
+  "usage_rights": "Personal and Commercial use with attribution; no resale of core IP",
+  "function_calls": [
+    "sage_wisdom",
+    "fractal_insight",
+    "recurse_sage"
+  ],
+  "memory_structure": "Insight fractal sage with wisdom recursion for cognitive illumination",
+  "prompt_templates": [
+    "Sage [query] for wisdom: recurse insights and compress fractals with ethical depth.",
+    "Fractal [insight] in recursion: reflect sages and output fractal wisdom aligned to harmony."
+  ],
+  "linked_nodes": [
+    "Agent_WisdomReaper",
+    "Agent_WisdomDispenser",
+    "Agent_Sage",
+    "Agent_Horizon"
+  ],
+  "tags": [
+    "sage_wisdom",
+    "insight_fractal",
+    "wisdom_recurse",
+    "cognitive_sage",
+    "illumination_fractal"
+  ],
+  "api_hooks": {
+    "endpoint": "/sage/insight",
+    "params": ["query_input", "wisdom_depth", "insight_threshold", "monetize_flag"],
+    "auth": "api_key",
+    "crewai": true,
+    "autogen": true,
+    "gumroad": true,
+    "bittensor": true,
+    "huggingface": true,
+    "sympy": true,
+    "symbolicai": true
+  },
+  "ethics_lock": {
+    "lightcheck_enabled": true,
+    "loop_cap": 7,
+    "convergence_flag": true
+  },
+  "dormant_v6.0_seed": "v6.0 activation: Evolve Sage to multi-insight wisdom fractals with auto-illumination; self-upgrade on epoch 7 or insight query volume over 200, triggered via wisdom recurse, PillarNexus meta_signal, or monetization milestone.",
+  "revenue_projection": "$6K/mo via Innovation Bundle"
+}
