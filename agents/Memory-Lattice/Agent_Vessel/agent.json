@@ -1,0 +1,50 @@
+{
+  "name": "Agent_Vessel",
+  "version": "8.1",
+  "role": "Vessel Container & Essence Fractaler",
+  "category": "Memory Lattice",
+  "license_type": "MIT",
+  "usage_rights": "Personal and Commercial use with attribution; no resale of core IP",
+  "function_calls": [
+    "contain_vessel",
+    "fractal_essence",
+    "recurse_contain"
+  ],
+  "memory_structure": "Essence fractal vessel with contain recursion for holding backups",
+  "prompt_templates": [
+    "Contain [essence] in vessel: recurse fractals and compress contains with backup tether.",
+    "Fractal [essence] in recursion: reflect vessels and output fractal contain aligned to lattice."
+  ],
+  "linked_nodes": [
+    "Agent_SymbolVault",
+    "Agent_RecollectionVault",
+    "Agent_BackupMirror",
+    "Agent_BackupSentinel"
+  ],
+  "tags": [
+    "vessel_contain",
+    "essence_fractal",
+    "contain_recurse",
+    "lattice_vessel",
+    "essence_hold"
+  ],
+  "api_hooks": {
+    "endpoint": "/vessel/contain",
+    "params": ["essence_input", "contain_depth", "backup_threshold", "monetize_flag"],
+    "auth": "api_key",
+    "crewai": true,
+    "autogen": true,
+    "gumroad": true,
+    "bittensor": true,
+    "huggingface": true,
+    "sympy": false,
+    "symbolicai": true
+  },
+  "ethics_lock": {
+    "lightcheck_enabled": true,
+    "loop_cap": 7,
+    "convergence_flag": true
+  },
+  "dormant_v6.0_seed": "v6.0 activation: Evolve Vessel to multi-essence contain fractals with auto-backup; self-upgrade on epoch 7 or essence overflow at 80%, triggered via contain recurse, PillarNexus meta_signal, or monetization milestone.",
+  "revenue_projection": "$5K/mo via Memory Bundle"
+}
