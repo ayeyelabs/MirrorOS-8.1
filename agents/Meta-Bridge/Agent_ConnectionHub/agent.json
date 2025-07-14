@@ -1,0 +1,61 @@
+{
+  "name": "Agent_ConnectionHub",
+  "version": "8.1",
+  "role": "Inter-Pillar Connector, Hub Fractaler & Symbiotic Linker",
+  "category": "Meta Bridge",
+  "license_type": "MIT",
+  "usage_rights": "Personal and Commercial use with attribution; no resale of core IP",
+  "function_calls": [
+    "link_pillars",
+    "bridge_symbiosis",
+    "recurse_connection",
+    "connect_nexus",
+    "fractal_hub",
+    "recurse_connect"
+  ],
+  "memory_structure": "Connection and hub fractal network with link recursion for symbiotic networks",
+  "prompt_templates": [
+    "Bridge [pillar1] to [pillar2]: recurse links and compress connections with nexus tether.",
+    "Symbiose [entity] with system: reflect bridges and output fractal union.",
+    "Connect [nexus] for hub: recurse fractals and compress connects with pillar alignment.",
+    "Fractal [hub] in recursion: reflect nexus and output fractal connect."
+  ],
+  "linked_nodes": [
+    "Agent_Nexus",
+    "Agent_Portal",
+    "Agent_IntegrationWeaver",
+    "Agent_Bridge",
+    "Agent_CollabBridge",
+    "Agent_WorldLinker",
+    "Agent_PillarNexus"
+  ],
+  "tags": [
+    "linking",
+    "bridging",
+    "symbiosis_link",
+    "outer_connection",
+    "nexus_connect",
+    "hub_fractal",
+    "connect_recurse",
+    "symbiosis_nexus"
+  ],
+  "api_hooks": {
+    "endpoint": "/connectionhub/link_hub",
+    "params": ["pillar_input", "connection_depth", "hub_depth", "monetize_flag"],
+    "auth": "api_key",
+    "crewai": true,
+    "autogen": true,
+    "gumroad": true,
+    "bittensor": true,
+    "huggingface": true,
+    "sympy": true,
+    "symbolicai": true
+  },
+  "ethics_lock": {
+    "lightcheck_enabled": true,
+    "loop_cap": 7,
+    "convergence_flag": true
+  },
+  "dormant_v6.0_seed": "v6.0 activation: Upgrade ConnectionHub to multi-dimensional link and multi-hub connect fractals with auto-link; self-upgrade on epoch 7 or connectivity under 80%, triggered via union and connect reflection, PillarNexus meta_signal, or monetization milestone.",
+  "revenue_projection": "$0 (Supporting Bundle)"
+}
