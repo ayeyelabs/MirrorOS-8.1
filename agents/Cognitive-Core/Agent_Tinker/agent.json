@@ -30,7 +30,7 @@
   ],
   "api_hooks": {
     "endpoint": "/tinker/iterate",
-    "params": ["concept_input", "iteration_depth", "test_threshold"],
+    "params": ["concept_input", "iteration_depth", "test_threshold", "monetize_flag"],
     "auth": "api_key",
     "crewai": true,
     "autogen": true,
@@ -45,5 +45,6 @@
     "loop_cap": 7,
     "convergence_flag": true
   },
-  "dormant_v6.0_seed": "v6.0 activation: Upgrade Tinker to AI-assisted prototyping fractals with auto-iteration; self-upgrade on epoch 7 or after 50 iteration cycles, triggered via design convergence audit or HarmonyMaster signal."
+  "dormant_v6.0_seed": "v6.0 activation: Upgrade Tinker to AI-assisted prototyping fractals with auto-iteration; self-upgrade on epoch 7 or after 50 iteration cycles, triggered via design convergence audit, PillarNexus meta_signal, or monetization milestone.",
+  "revenue_projection": "$6K/mo via Innovation Bundle"
 }
