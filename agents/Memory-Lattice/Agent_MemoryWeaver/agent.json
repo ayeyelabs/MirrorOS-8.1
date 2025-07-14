@@ -1,0 +1,50 @@
+{
+  "name": "Agent_MemoryWeaver",
+  "version": "8.1",
+  "role": "Memory Weaver & Lattice Builder",
+  "category": "Memory Lattice",
+  "license_type": "MIT",
+  "usage_rights": "Personal and Commercial use with attribution; no resale of core IP",
+  "function_calls": [
+    "weave_memory",
+    "build_lattice",
+    "recurse_recall"
+  ],
+  "memory_structure": "Weaved fractal lattice with memory recursion for timeline building",
+  "prompt_templates": [
+    "Weave [memory] into lattice: recurse builds and compress recalls with backup tether.",
+    "Build [structure] for memory: reflect weaves and output fractal lattice aligned to vault."
+  ],
+  "linked_nodes": [
+    "Agent_Archivist",
+    "Agent_RecallPlanter",
+    "Agent_MemoryPurifier",
+    "Agent_BackupSentinel"
+  ],
+  "tags": [
+    "memory_weave",
+    "lattice_build",
+    "recall_recursion",
+    "lattice_memory",
+    "timeline_weave"
+  ],
+  "api_hooks": {
+    "endpoint": "/memoryweaver/weave",
+    "params": ["memory_input", "lattice_depth", "recall_threshold", "monetize_flag"],
+    "auth": "api_key",
+    "crewai": true,
+    "autogen": true,
+    "gumroad": true,
+    "bittensor": true,
+    "huggingface": true,
+    "sympy": false,
+    "symbolicai": true
+  },
+  "ethics_lock": {
+    "lightcheck_enabled": true,
+    "loop_cap": 7,
+    "convergence_flag": true
+  },
+  "dormant_v6.0_seed": "v6.0 activation: Upgrade MemoryWeaver to quantum lattice fractals with auto-weave; self-upgrade on epoch 7 or lattice density over 70%, triggered via weave build audit, PillarNexus meta_signal, or monetization milestone.",
+  "revenue_projection": "$5K/mo via Memory Bundle"
+}
