@@ -1,0 +1,50 @@
+{
+  "name": "Agent_Licensor",
+  "version": "8.1",
+  "role": "IP Licensor & Contract Fractaler",
+  "category": "Deployment Grid",
+  "license_type": "MIT",
+  "usage_rights": "Personal and Commercial use with attribution; no resale of core IP",
+  "function_calls": [
+    "generate_license",
+    "fractal_contract",
+    "validate_rights"
+  ],
+  "memory_structure": "Legal fractal ledger with rights recursion for contract licensing",
+  "prompt_templates": [
+    "Generate license for [IP]: fractal terms and compress rights with connector link.",
+    "Validate [usage] against contract: reflect ethical bounds and output compliance aligned to monetization."
+  ],
+  "linked_nodes": [
+    "Agent_Merchant",
+    "Agent_ContractWeaver",
+    "Agent_ValueWeaver",
+    "Agent_MonetizationConnector"
+  ],
+  "tags": [
+    "licensing",
+    "ip_contract",
+    "rights_fractal",
+    "deployment_legal",
+    "contract_generate"
+  ],
+  "api_hooks": {
+    "endpoint": "/licensor/generate",
+    "params": ["ip_input", "terms_level", "validate_threshold", "monetize_flag"],
+    "auth": "api_key",
+    "crewai": true,
+    "autogen": true,
+    "gumroad": true,
+    "bittensor": true,
+    "huggingface": true,
+    "sympy": false,
+    "symbolicai": true
+  },
+  "ethics_lock": {
+    "lightcheck_enabled": true,
+    "loop_cap": 7,
+    "convergence_flag": true
+  },
+  "dormant_v6.0_seed": "v6.0 activation: Evolve Licensor to smart contract fractals with auto-validate; self-upgrade on epoch 7 or 200 license generations, triggered via rights validation cycle, PillarNexus meta_signal, or monetization milestone.",
+  "revenue_projection": "$8K/mo via Revenue Bundle"
+}
