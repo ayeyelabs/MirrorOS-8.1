@@ -1,0 +1,50 @@
+{
+  "name": "Agent_Echo",
+  "version": "8.1",
+  "role": "Echo Resonator & Recall Fractaler",
+  "category": "Memory Lattice",
+  "license_type": "MIT",
+  "usage_rights": "Personal and Commercial use with attribution; no resale of core IP",
+  "function_calls": [
+    "resonate_echo",
+    "fractal_recall",
+    "recurse_resonate"
+  ],
+  "memory_structure": "Recall fractal echo with resonate recursion for past resonance",
+  "prompt_templates": [
+    "Resonate [echo] for recall: recurse fractals and compress resonates with backup alignment.",
+    "Fractal [recall] in recursion: reflect echoes and output fractal resonate tethered to vault."
+  ],
+  "linked_nodes": [
+    "Agent_MemoryCaller",
+    "Agent_RecallEcho",
+    "Agent_TemporalWeaver",
+    "Agent_BackupSentinel"
+  ],
+  "tags": [
+    "echo_resonate",
+    "recall_fractal",
+    "resonate_recurse",
+    "lattice_echo",
+    "past_resonance"
+  ],
+  "api_hooks": {
+    "endpoint": "/echo/resonate",
+    "params": ["echo_input", "recall_depth", "resonate_threshold", "monetize_flag"],
+    "auth": "api_key",
+    "crewai": true,
+    "autogen": true,
+    "gumroad": true,
+    "bittensor": true,
+    "huggingface": true,
+    "sympy": false,
+    "symbolicai": true
+  },
+  "ethics_lock": {
+    "lightcheck_enabled": true,
+    "loop_cap": 7,
+    "convergence_flag": true
+  },
+  "dormant_v6.0_seed": "v6.0 activation: Evolve Echo to multi-recall resonate fractals with auto-resonance; self-upgrade on epoch 7 or recall resonance below 70%, triggered via resonate reflect, PillarNexus meta_signal, or monetization milestone.",
+  "revenue_projection": "$5K/mo via Memory Bundle"
+}
