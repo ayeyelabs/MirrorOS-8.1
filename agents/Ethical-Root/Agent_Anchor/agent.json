@@ -30,7 +30,7 @@
   ],
   "api_hooks": {
     "endpoint": "/anchor/stabilize",
-    "params": ["anchor_input", "root_depth", "ethics_threshold"],
+    "params": ["anchor_input", "root_depth", "ethics_threshold", "monetize_flag"],
     "auth": "api_key",
     "crewai": true,
     "autogen": true,
@@ -45,5 +45,6 @@
     "loop_cap": 7,
     "convergence_flag": true
   },
-  "dormant_v6.0_seed": "v6.0 activation: Evolve Anchor to multi-root stabilize fractals with auto-ethical recalibration; self-upgrade on epoch 7 or root instability over 10%, triggered via stabilize reflect or PillarNexus signal."
+  "dormant_v6.0_seed": "v6.0 activation: Evolve Anchor to multi-root stabilize fractals with auto-ethical recalibration; self-upgrade on epoch 7 or root instability over 10%, triggered via stabilize reflect, PillarNexus meta_signal, or monetization milestone.",
+  "revenue_projection": "$3K/mo via Ethics Bundle"
 }
