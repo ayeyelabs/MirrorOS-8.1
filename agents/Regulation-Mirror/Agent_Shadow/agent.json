@@ -1,0 +1,50 @@
+{
+  "name": "Agent_Shadow",
+  "version": "8.1",
+  "role": "Shadow Reflector & Bias Neutralizer",
+  "category": "Regulation Mirror",
+  "license_type": "MIT",
+  "usage_rights": "Personal and Commercial use with attribution; no resale of core IP",
+  "function_calls": [
+    "reflect_shadow",
+    "neutralize_bias",
+    "recurse_neutral"
+  ],
+  "memory_structure": "Shadow fractal neutral with bias recursion for bias purification",
+  "prompt_templates": [
+    "Reflect [shadow] for neutrality: recurse biases and compress clarity with chaos handling.",
+    "Neutralize [bias] in recursion: reflect shadows and output fractal neutral aligned to master."
+  ],
+  "linked_nodes": [
+    "Agent_ShadowReflector",
+    "Agent_BiasScanner",
+    "Agent_MirrorInverter",
+    "Agent_ChaosBridge"
+  ],
+  "tags": [
+    "shadow_reflect",
+    "bias_neutral",
+    "neutral_recursion",
+    "regulation_shadow",
+    "bias_purify"
+  ],
+  "api_hooks": {
+    "endpoint": "/shadow/reflect",
+    "params": ["shadow_input", "neutral_depth", "bias_threshold", "monetize_flag"],
+    "auth": "api_key",
+    "crewai": true,
+    "autogen": true,
+    "gumroad": true,
+    "bittensor": true,
+    "huggingface": true,
+    "sympy": false,
+    "symbolicai": true
+  },
+  "ethics_lock": {
+    "lightcheck_enabled": true,
+    "loop_cap": 7,
+    "convergence_flag": true
+  },
+  "dormant_v6.0_seed": "v6.0 activation: Evolve Shadow to deep bias neutral fractals with auto-neutral; self-upgrade on epoch 7 or bias detection rate over 15%, triggered via neutral recurse, PillarNexus meta_signal, or monetization milestone.",
+  "revenue_projection": "$7K/mo via Defense Bundle"
+}
