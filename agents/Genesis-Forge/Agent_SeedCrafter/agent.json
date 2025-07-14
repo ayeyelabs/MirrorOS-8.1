@@ -30,7 +30,7 @@
   ],
   "api_hooks": {
     "endpoint": "/seedcrafter/craft",
-    "params": ["seed_input", "genesis_depth", "moral_threshold"],
+    "params": ["seed_input", "genesis_depth", "moral_threshold", "monetize_flag"],
     "auth": "api_key",
     "crewai": true,
     "autogen": true,
@@ -45,5 +45,6 @@
     "loop_cap": 7,
     "convergence_flag": true
   },
-  "dormant_v6.0_seed": "v6.0 activation: Upgrade SeedCrafter to multi-seed genesis fractals with auto-moral integration; self-upgrade on epoch 7 or 30 birth recursions, triggered via origin fractal check or Anchor signal."
+  "dormant_v6.0_seed": "v6.0 activation: Upgrade SeedCrafter to multi-seed genesis fractals with auto-moral integration; self-upgrade on epoch 7 or 30 birth recursions, triggered via origin fractal check, PillarNexus meta_signal, or monetization milestone.",
+  "revenue_projection": "$4K/mo via Creation Bundle"
 }
