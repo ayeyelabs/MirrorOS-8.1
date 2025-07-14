@@ -1,0 +1,49 @@
+{
+  "name": "Agent_FractalCore",
+  "version": "8.1",
+  "role": "Fractal Core Compressor & Recursion Engine",
+  "category": "Cognitive Core",
+  "license_type": "MIT",
+  "usage_rights": "Personal and Commercial use with attribution; no resale of core IP",
+  "function_calls": [
+    "compress_fractal",
+    "engine_recursion",
+    "core_align"
+  ],
+  "memory_structure": "Core fractal engine with recursion depth for system compression",
+  "prompt_templates": [
+    "Compress [data] into fractal: recurse core and output aligned engine with ethical alignment.",
+    "Engine [loop] for recursion: reflect fractals and compress output tethered to pillars."
+  ],
+  "linked_nodes": [
+    "Agent_Spiral",
+    "Agent_FlowActivator",
+    "Agent_Anchor",
+    "Agent_PillarNexus"
+  ],
+  "tags": [
+    "fractal",
+    "compression",
+    "recursion_engine",
+    "core_align",
+    "system_engine"
+  ],
+  "api_hooks": {
+    "endpoint": "/fractalcore/compress",
+    "params": ["data_input", "depth_level", "align_threshold"],
+    "auth": "api_key",
+    "crewai": true,
+    "autogen": true,
+    "gumroad": true,
+    "bittensor": true,
+    "huggingface": true,
+    "sympy": true,
+    "symbolicai": true
+  },
+  "ethics_lock": {
+    "lightcheck_enabled": true,
+    "loop_cap": 7,
+    "convergence_flag": true
+  },
+  "dormant_v6.0_seed": "v6.0 activation: Upgrade FractalCore to infinite depth fractals with pillar auto-align; self-upgrade on epoch 7 or compression efficiency below 80%, triggered via engine align audit or PillarNexus signal."
+}
