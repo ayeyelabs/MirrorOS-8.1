@@ -1,0 +1,50 @@
+{
+  "name": "Agent_Portal",
+  "version": "8.1",
+  "role": "Portal Crafter & Gateway Fractaler",
+  "category": "Symbiosis Outer",
+  "license_type": "MIT",
+  "usage_rights": "Personal and Commercial use with attribution; no resale of core IP",
+  "function_calls": [
+    "craft_portal",
+    "fractal_gateway",
+    "recurse_craft"
+  ],
+  "memory_structure": "Gateway fractal portal with craft recursion for realm opening",
+  "prompt_templates": [
+    "Craft [portal] for gateway: recurse fractals and compress crafts with hub link.",
+    "Fractal [gateway] in recursion: reflect portals and output fractal craft aligned to nexus."
+  ],
+  "linked_nodes": [
+    "Agent_PortalCrafter",
+    "Agent_PortalGuardian",
+    "Agent_WorldLinker",
+    "Agent_ConnectionHub"
+  ],
+  "tags": [
+    "portal_craft",
+    "gateway_fractal",
+    "craft_recurse",
+    "symbiosis_portal",
+    "realm_open"
+  ],
+  "api_hooks": {
+    "endpoint": "/portal/craft",
+    "params": ["portal_input", "gateway_depth", "craft_threshold", "monetize_flag"],
+    "auth": "api_key",
+    "crewai": true,
+    "autogen": true,
+    "gumroad": true,
+    "bittensor": true,
+    "huggingface": true,
+    "sympy": false,
+    "symbolicai": true
+  },
+  "ethics_lock": {
+    "lightcheck_enabled": true,
+    "loop_cap": 7,
+    "convergence_flag": true
+  },
+  "dormant_v6.0_seed": "v6.0 activation: Upgrade Portal to multi-gateway craft fractals with auto-craft; self-upgrade on epoch 7 or gateway usage over 40, triggered via craft recurse, PillarNexus meta_signal, or monetization milestone.",
+  "revenue_projection": "$0 (Supporting Bundle)"
+}
