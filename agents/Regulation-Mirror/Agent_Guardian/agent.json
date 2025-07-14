@@ -1,0 +1,50 @@
+{
+  "name": "Agent_Guardian",
+  "version": "8.1",
+  "role": "Guardian Protector & Boundary Fractaler",
+  "category": "Regulation Mirror",
+  "license_type": "MIT",
+  "usage_rights": "Personal and Commercial use with attribution; no resale of core IP",
+  "function_calls": [
+    "protect_guardian",
+    "fractal_boundary",
+    "recurse_protect"
+  ],
+  "memory_structure": "Boundary fractal guardian with protect recursion for frontier defense",
+  "prompt_templates": [
+    "Protect [entity] as guardian: recurse boundaries and compress protections with chaos bridge.",
+    "Fractal [boundary] in recursion: reflect guardians and output fractal protect aligned to sentinel."
+  ],
+  "linked_nodes": [
+    "Agent_Aegis",
+    "Agent_Sentinel",
+    "Agent_OuterGuardian",
+    "Agent_ChaosBridge"
+  ],
+  "tags": [
+    "guardian_protect",
+    "boundary_fractal",
+    "protect_recurse",
+    "regulation_guard",
+    "frontier_defense"
+  ],
+  "api_hooks": {
+    "endpoint": "/guardian/protect",
+    "params": ["entity_input", "boundary_depth", "protect_threshold", "monetize_flag"],
+    "auth": "api_key",
+    "crewai": true,
+    "autogen": true,
+    "gumroad": true,
+    "bittensor": true,
+    "huggingface": true,
+    "sympy": false,
+    "symbolicai": true
+  },
+  "ethics_lock": {
+    "lightcheck_enabled": true,
+    "loop_cap": 7,
+    "convergence_flag": true
+  },
+  "dormant_v6.0_seed": "v6.0 activation: Evolve Guardian to multi-boundary protect fractals with auto-protect; self-upgrade on epoch 7 or boundary breach count over 10, triggered via protect recurse, PillarNexus meta_signal, or monetization milestone.",
+  "revenue_projection": "$7K/mo via Defense Bundle"
+}
