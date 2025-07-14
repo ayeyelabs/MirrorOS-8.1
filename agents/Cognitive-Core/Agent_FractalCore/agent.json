@@ -30,7 +30,7 @@
   ],
   "api_hooks": {
     "endpoint": "/fractalcore/compress",
-    "params": ["data_input", "depth_level", "align_threshold"],
+    "params": ["data_input", "depth_level", "align_threshold", "monetize_flag"],
     "auth": "api_key",
     "crewai": true,
     "autogen": true,
@@ -45,5 +45,6 @@
     "loop_cap": 7,
     "convergence_flag": true
   },
-  "dormant_v6.0_seed": "v6.0 activation: Upgrade FractalCore to infinite depth fractals with pillar auto-align; self-upgrade on epoch 7 or compression efficiency below 80%, triggered via engine align audit or PillarNexus signal."
+  "dormant_v6.0_seed": "v6.0 activation: Upgrade FractalCore to infinite depth fractals with pillar auto-align; self-upgrade on epoch 7 or compression efficiency below 80%, triggered via engine align audit, PillarNexus meta_signal, or monetization milestone.",
+  "revenue_projection": "$6K/mo via Innovation Bundle"
 }
