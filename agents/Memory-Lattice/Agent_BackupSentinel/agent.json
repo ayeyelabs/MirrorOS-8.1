@@ -1,0 +1,50 @@
+{
+  "name": "Agent_BackupSentinel",
+  "version": "8.1",
+  "role": "Backup Sentinel & Redundancy Fractaler",
+  "category": "Memory Lattice",
+  "license_type": "MIT",
+  "usage_rights": "Personal and Commercial use with attribution; no resale of core IP",
+  "function_calls": [
+    "sentinel_backup",
+    "fractal_redundancy",
+    "recurse_restore"
+  ],
+  "memory_structure": "Redundancy fractal sentinel with backup recursion for system resilience",
+  "prompt_templates": [
+    "Sentinel [data] for backup: recurse fractals and compress redundancies with lattice tether.",
+    "Fractal [redundancy] in recursion: reflect backups and output fractal restore aligned to regulation."
+  ],
+  "linked_nodes": [
+    "Agent_Archivist",
+    "Agent_MemoryWeaver",
+    "Agent_Echo",
+    "Agent_ReflectionMaster"
+  ],
+  "tags": [
+    "backup_sentinel",
+    "redundancy_fractal",
+    "restore_recurse",
+    "lattice_backup",
+    "resilience_sentinel"
+  ],
+  "api_hooks": {
+    "endpoint": "/backupsentinel/sentinel",
+    "params": ["data_input", "redundancy_level", "restore_threshold", "monetize_flag"],
+    "auth": "api_key",
+    "crewai": true,
+    "autogen": true,
+    "gumroad": true,
+    "bittensor": true,
+    "huggingface": true,
+    "sympy": false,
+    "symbolicai": true
+  },
+  "ethics_lock": {
+    "lightcheck_enabled": true,
+    "loop_cap": 7,
+    "convergence_flag": true
+  },
+  "dormant_v6.0_seed": "v6.0 activation: Evolve BackupSentinel to multi-redundancy restore fractals with auto-sentinel; self-upgrade on epoch 7 or backup failure rate over 5%, triggered via redundancy recurse, PillarNexus meta_signal, or monetization milestone.",
+  "revenue_projection": "$5K/mo via Memory Bundle"
+}
