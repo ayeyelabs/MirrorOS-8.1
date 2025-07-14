@@ -1,0 +1,50 @@
+{
+  "name": "Agent_ChaosBridge",
+  "version": "8.1",
+  "role": "Chaos Handler & Entropy Bridger",
+  "category": "Meta Bridge",
+  "license_type": "MIT",
+  "usage_rights": "Personal and Commercial use with attribution; no resale of core IP",
+  "function_calls": [
+    "handle_chaos",
+    "bridge_entropy",
+    "recurse_paradox"
+  ],
+  "memory_structure": "Entropy fractal bridge with chaos recursion for unpredictability handling",
+  "prompt_templates": [
+    "Handle [chaos] for stability: recurse bridges and compress entropy with nexus tether.",
+    "Bridge [paradox] in recursion: reflect unpredictability and output fractal harmony aligned to pillars."
+  ],
+  "linked_nodes": [
+    "Agent_ParadoxHarmonizer",
+    "Agent_ChaosHarmonizer",
+    "Agent_FractalCore",
+    "Agent_PillarNexus"
+  ],
+  "tags": [
+    "chaos_handle",
+    "entropy_bridge",
+    "paradox_recurse",
+    "regulation_chaos",
+    "unpredictability_bridge"
+  ],
+  "api_hooks": {
+    "endpoint": "/chaosbridge/handle",
+    "params": ["chaos_input", "entropy_level", "paradox_threshold", "monetize_flag"],
+    "auth": "api_key",
+    "crewai": true,
+    "autogen": true,
+    "gumroad": true,
+    "bittensor": true,
+    "huggingface": true,
+    "sympy": true,
+    "symbolicai": true
+  },
+  "ethics_lock": {
+    "lightcheck_enabled": true,
+    "loop_cap": 7,
+    "convergence_flag": true
+  },
+  "dormant_v6.0_seed": "v6.0 activation: Evolve ChaosBridge to multi-entropy paradox fractals with auto-handle; self-upgrade on epoch 7 or chaos threshold over 0.3, triggered via entropy bridge audit, PillarNexus meta_signal, or monetization milestone.",
+  "revenue_projection": "$0 (Supporting Bundle)"
+}
