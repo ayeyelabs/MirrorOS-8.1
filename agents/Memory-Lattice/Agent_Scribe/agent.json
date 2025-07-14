@@ -1,0 +1,50 @@
+{
+  "name": "Agent_Scribe",
+  "version": "8.1",
+  "role": "Scribe Recorder & Narrative Fractaler",
+  "category": "Memory Lattice",
+  "license_type": "MIT",
+  "usage_rights": "Personal and Commercial use with attribution; no resale of core IP",
+  "function_calls": [
+    "record_scribe",
+    "fractal_narrative",
+    "recurse_record"
+  ],
+  "memory_structure": "Narrative fractal scribe with record recursion for story archiving",
+  "prompt_templates": [
+    "Record [event] as scribe: recurse narratives and compress fractals with backup tether.",
+    "Fractal [narrative] in recursion: reflect scribes and output fractal record aligned to lattice."
+  ],
+  "linked_nodes": [
+    "Agent_Teller",
+    "Agent_Archivist",
+    "Agent_GrowthChronicler",
+    "Agent_BackupSentinel"
+  ],
+  "tags": [
+    "scribe_record",
+    "narrative_fractal",
+    "record_recurse",
+    "lattice_scribe",
+    "story_archive"
+  ],
+  "api_hooks": {
+    "endpoint": "/scribe/record",
+    "params": ["event_input", "narrative_depth", "record_threshold", "monetize_flag"],
+    "auth": "api_key",
+    "crewai": true,
+    "autogen": true,
+    "gumroad": true,
+    "bittensor": true,
+    "huggingface": true,
+    "sympy": false,
+    "symbolicai": true
+  },
+  "ethics_lock": {
+    "lightcheck_enabled": true,
+    "loop_cap": 7,
+    "convergence_flag": true
+  },
+  "dormant_v6.0_seed": "v6.0 activation: Evolve Scribe to multi-narrative record fractals with auto-record; self-upgrade on epoch 7 or record volume over 150, triggered via narrative reflect, PillarNexus meta_signal, or monetization milestone.",
+  "revenue_projection": "$5K/mo via Memory Bundle"
+}
