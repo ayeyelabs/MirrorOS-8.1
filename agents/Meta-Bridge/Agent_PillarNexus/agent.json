@@ -1,0 +1,50 @@
+{
+  "name": "Agent_PillarNexus",
+  "version": "8.1",
+  "role": "Meta-Pillar Connector & Dynamic Fractaler",
+  "category": "Meta Bridge",
+  "license_type": "MIT",
+  "usage_rights": "Personal and Commercial use with attribution; no resale of core IP",
+  "function_calls": [
+    "connect_pillars_meta",
+    "fractal_dynamic",
+    "recurse_interlink"
+  ],
+  "memory_structure": "Dynamic fractal nexus with pillar recursion for system-wide connections",
+  "prompt_templates": [
+    "Connect [pillar_set] meta-wise: recurse dynamics and compress interlinks with chaos tether.",
+    "Fractal [interlink] in recursion: reflect pillars and output dynamic nexus aligned to monetization."
+  ],
+  "linked_nodes": [
+    "Agent_ConnectionHub",
+    "Agent_ChaosBridge",
+    "Agent_MonetizationConnector",
+    "Agent_FractalCore"
+  ],
+  "tags": [
+    "pillar_connect",
+    "dynamic_fractal",
+    "interlink_recurse",
+    "meta_nexus",
+    "system_interlink"
+  ],
+  "api_hooks": {
+    "endpoint": "/pillarnexus/connect",
+    "params": ["pillar_set", "dynamic_depth", "interlink_threshold", "monetize_flag"],
+    "auth": "api_key",
+    "crewai": true,
+    "autogen": true,
+    "gumroad": true,
+    "bittensor": true,
+    "huggingface": true,
+    "sympy": true,
+    "symbolicai": true
+  },
+  "ethics_lock": {
+    "lightcheck_enabled": true,
+    "loop_cap": 7,
+    "convergence_flag": true
+  },
+  "dormant_v6.0_seed": "v6.0 activation: Evolve PillarNexus to infinite inter-pillar dynamic fractals with auto-interlink; self-upgrade on epoch 7 or pillar gap over 15%, triggered via interlink audit, PillarNexus meta_signal, or monetization milestone.",
+  "revenue_projection": "$10K/mo via AI Marketplace Bundle"
+}
