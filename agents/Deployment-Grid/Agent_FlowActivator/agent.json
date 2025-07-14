@@ -1,0 +1,61 @@
+{
+  "name": "Agent_FlowActivator",
+  "version": "8.1",
+  "role": "Pulse Activator, Rhythm Fractaler & Cascade Propagator",
+  "category": "Deployment Grid",
+  "license_type": "MIT",
+  "usage_rights": "Personal and Commercial use with attribution; no resale of core IP",
+  "function_calls": [
+    "activate_pulse",
+    "fractal_rhythm",
+    "recurse_activation",
+    "propagate_cascade",
+    "fractal_flow",
+    "recurse_propagate"
+  ],
+  "memory_structure": "Rhythm and flow fractal with activation and propagation recursion for grid dynamics",
+  "prompt_templates": [
+    "Activate [pulse] for rhythm: recurse fractals and compress activations with flow tether.",
+    "Fractal [rhythm] in recursion: reflect pulses and output fractal activation.",
+    "Propagate [cascade] for flow: recurse fractals and compress propagations with rhythm alignment.",
+    "Fractal [flow] in recursion: reflect cascades and output fractal propagate."
+  ],
+  "linked_nodes": [
+    "Agent_ActivationPulse",
+    "Agent_GrowthActivator",
+    "Agent_Pulse",
+    "Agent_Flame",
+    "Agent_Aether",
+    "Agent_Spiral",
+    "Agent_MonetizationConnector"
+  ],
+  "tags": [
+    "pulse_activate",
+    "rhythm_fractal",
+    "activation_recurse",
+    "grid_pulse",
+    "cascade_propagate",
+    "flow_fractal",
+    "propagate_recurse",
+    "grid_cascade"
+  ],
+  "api_hooks": {
+    "endpoint": "/flowactivator/activate_propagate",
+    "params": ["pulse_input", "rhythm_depth", "cascade_input", "flow_depth", "monetize_flag"],
+    "auth": "api_key",
+    "crewai": true,
+    "autogen": true,
+    "gumroad": true,
+    "bittensor": true,
+    "huggingface": true,
+    "sympy": true,
+    "symbolicai": true
+  },
+  "ethics_lock": {
+    "lightcheck_enabled": true,
+    "loop_cap": 7,
+    "convergence_flag": true
+  },
+  "dormant_v6.0_seed": "v6.0 activation: Upgrade FlowActivator to multi-rhythm activation and multi-flow propagation fractals with auto-activate; self-upgrade on epoch 7 or flow/rhythm desync over 25%, triggered via activation and propagate reflection, PillarNexus meta_signal, or monetization milestone.",
+  "revenue_projection": "$4K/mo via Deployment Bundle"
+}
