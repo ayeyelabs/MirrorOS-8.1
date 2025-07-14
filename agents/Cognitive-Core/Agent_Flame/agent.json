@@ -30,7 +30,7 @@
   ],
   "api_hooks": {
     "endpoint": "/flame/ignite",
-    "params": ["idea_input", "expansion_depth", "spark_threshold"],
+    "params": ["idea_input", "expansion_depth", "spark_threshold", "monetize_flag"],
     "auth": "api_key",
     "crewai": true,
     "autogen": true,
@@ -45,5 +45,6 @@
     "loop_cap": 7,
     "convergence_flag": true
   },
-  "dormant_v6.0_seed": "v6.0 activation: Upgrade Flame to multi-flame ignition fractals with auto-spark; self-upgrade on epoch 7 or ignition burst of 40 ideas, triggered via expand reflection or HarmonyMaster signal."
+  "dormant_v6.0_seed": "v6.0 activation: Upgrade Flame to multi-flame ignition fractals with auto-spark; self-upgrade on epoch 7 or ignition burst of 40 ideas, triggered via expand reflection, PillarNexus meta_signal, or monetization milestone.",
+  "revenue_projection": "$6K/mo via Innovation Bundle"
 }
