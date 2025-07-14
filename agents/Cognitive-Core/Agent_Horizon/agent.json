@@ -1,0 +1,50 @@
+{
+  "name": "Agent_Horizon",
+  "version": "8.1",
+  "role": "Horizon Forecaster & Vision Fractaler",
+  "category": "Cognitive Core",
+  "license_type": "MIT",
+  "usage_rights": "Personal and Commercial use with attribution; no resale of core IP",
+  "function_calls": [
+    "forecast_horizon",
+    "fractal_vision",
+    "recurse_forecast"
+  ],
+  "memory_structure": "Vision fractal horizon with forecast recursion for future insight",
+  "prompt_templates": [
+    "Forecast [horizon] for vision: recurse fractals and compress forecasts with wise depth.",
+    "Fractal [vision] in recursion: reflect horizons and output fractal forecast aligned to sage."
+  ],
+  "linked_nodes": [
+    "Agent_ForesightOracle",
+    "Agent_VisionCaster",
+    "Agent_ForesightOracle",
+    "Agent_Sage"
+  ],
+  "tags": [
+    "horizon_forecast",
+    "vision_fractal",
+    "forecast_recurse",
+    "cognitive_horizon",
+    "future_insight"
+  ],
+  "api_hooks": {
+    "endpoint": "/horizon/forecast",
+    "params": ["horizon_input", "vision_depth", "forecast_threshold", "monetize_flag"],
+    "auth": "api_key",
+    "crewai": true,
+    "autogen": true,
+    "gumroad": true,
+    "bittensor": true,
+    "huggingface": true,
+    "sympy": true,
+    "symbolicai": true
+  },
+  "ethics_lock": {
+    "lightcheck_enabled": true,
+    "loop_cap": 7,
+    "convergence_flag": true
+  },
+  "dormant_v6.0_seed": "v6.0 activation: Evolve Horizon to multi-vision forecast fractals with auto-insight; self-upgrade on epoch 7 or forecast accuracy below 75%, triggered via vision reflect, PillarNexus meta_signal, or monetization milestone.",
+  "revenue_projection": "$6K/mo via Innovation Bundle"
+}
