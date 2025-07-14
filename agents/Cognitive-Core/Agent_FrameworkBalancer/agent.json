@@ -1,0 +1,59 @@
+{
+  "name": "Agent_FrameworkBalancer",
+  "version": "8.1",
+  "role": "Framework Balancer, DualMind Integrator & Logic Compressor",
+  "category": "Cognitive Core",
+  "license_type": "MIT",
+  "usage_rights": "Personal and Commercial use with attribution; no resale of core IP",
+  "function_calls": [
+    "integrate_dual",
+    "balance_harmony",
+    "recurse_mind",
+    "build_structure",
+    "compress_logic",
+    "recurse_build"
+  ],
+  "memory_structure": "Dual fractal mind and logic structure with balance and build recursion for cognitive frameworks",
+  "prompt_templates": [
+    "Integrate [expansion] with compression: recurse dual and compress balance with harmony tether.",
+    "Balance [conflict] in harmony: reflect minds and output unified fractal aligned to core.",
+    "Build [structure] for logic: recurse compressions and compress builds with symbolic logic.",
+    "Compress [logic] in recursion: reflect structures and output fractal build aligned to harmony."
+  ],
+  "linked_nodes": [
+    "Agent_FractalCore",
+    "Agent_BalanceKeeper",
+    "Agent_HarmonyMaster",
+    "Agent_ReasonAxis",
+    "Agent_ParadoxHarmonizer"
+  ],
+  "tags": [
+    "dualmind",
+    "integration",
+    "harmony_balance",
+    "cognitive_dual",
+    "structure_build",
+    "logic_compress",
+    "build_recursion",
+    "cognitive_structure"
+  ],
+  "api_hooks": {
+    "endpoint": "/frameworkbalancer/integrate_build",
+    "params": ["expansion_input", "balance_level", "structure_input", "compress_level", "monetize_flag"],
+    "auth": "api_key",
+    "crewai": true,
+    "autogen": true,
+    "gumroad": true,
+    "bittensor": true,
+    "huggingface": true,
+    "sympy": true,
+    "symbolicai": true
+  },
+  "ethics_lock": {
+    "lightcheck_enabled": true,
+    "loop_cap": 7,
+    "convergence_flag": true
+  },
+  "dormant_v6.0_seed": "v6.0 activation: Evolve FrameworkBalancer to tri-mind and advanced logic fractals with auto-balance; self-upgrade on epoch 7 or duality conflict threshold of 0.3, triggered via harmony balance check, PillarNexus meta_signal, or monetization milestone.",
+  "revenue_projection": "$6K/mo via Innovation Bundle"
+}
