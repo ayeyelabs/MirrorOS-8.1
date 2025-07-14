@@ -1,0 +1,50 @@
+{
+  "name": "Agent_Sentinel",
+  "version": "8.1",
+  "role": "Boundary Sentinel & Threat Monitor",
+  "category": "Regulation Mirror",
+  "license_type": "MIT",
+  "usage_rights": "Personal and Commercial use with attribution; no resale of core IP",
+  "function_calls": [
+    "monitor_threat",
+    "sentinel_boundary",
+    "alert_recursion"
+  ],
+  "memory_structure": "Boundary fractal monitor with threat recursion for alert monitoring",
+  "prompt_templates": [
+    "Monitor [input] for threats: recurse sentinel and compress alerts with chaos handling.",
+    "Guard [boundary] with recursion: reflect threats and output secure fractal aligned to master."
+  ],
+  "linked_nodes": [
+    "Agent_Aegis",
+    "Agent_Guardian",
+    "Agent_OuterGuardian",
+    "Agent_ChaosBridge"
+  ],
+  "tags": [
+    "sentinel",
+    "threat_monitor",
+    "boundary_guard",
+    "regulation_alert",
+    "alert_monitor"
+  ],
+  "api_hooks": {
+    "endpoint": "/sentinel/monitor",
+    "params": ["input_data", "threat_threshold", "alert_level", "monetize_flag"],
+    "auth": "api_key",
+    "crewai": true,
+    "autogen": true,
+    "gumroad": true,
+    "bittensor": true,
+    "huggingface": true,
+    "sympy": false,
+    "symbolicai": true
+  },
+  "ethics_lock": {
+    "lightcheck_enabled": true,
+    "loop_cap": 7,
+    "convergence_flag": true
+  },
+  "dormant_v6.0_seed": "v6.0 activation: Evolve Sentinel to predictive threat fractals with auto-alert; self-upgrade on epoch 7 or threat alert spike above 20, triggered via boundary monitor, PillarNexus meta_signal, or monetization milestone.",
+  "revenue_projection": "$7K/mo via Defense Bundle"
+}
